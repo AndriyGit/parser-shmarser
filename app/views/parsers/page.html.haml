@@ -1,6 +1,9 @@
+%ul.categories
+  %li
+    = link_to 'Home', root_path
 .banner-grid-info.center-block
   %h3.text-upper This is content!!
-.grid
+.element-grid
   - @content.each do |element|
     = element.html_safe
 .clearfix

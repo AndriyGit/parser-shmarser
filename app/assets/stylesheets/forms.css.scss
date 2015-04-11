@@ -1,0 +1,19 @@
+#map, #search-result-map {
+  width: 100%;
+  height: 600px;
+  margin-bottom: 20px;
+}
+.action-buttons {
+  margin-bottom: 65px;
+}
+#gmaps_context_menu li a:hover {
+  color: red;
+}
+.radius {
+  position: relative;
+  span {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+}

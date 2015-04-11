@@ -1,0 +1,7 @@
+%ul.categories
+  %li
+    = link_to 'Home', root_path
+
+  - @categories.each do |category|
+    %li
+      = link_to category[:name], "page/#{category[:href][26..-2]}"

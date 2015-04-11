@@ -1,0 +1,94 @@
+.text-upper {
+  text-transform: uppercase;
+}
+
+.grid {
+  width: 95%;
+  min-width: 350px;
+  margin: 0 auto 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .grid-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    min-width: 312px;
+    width: 312px;
+
+    img {
+      flex-basis: 100%;
+      width: 312px;
+    }
+
+    .grid-item-info {
+      display: block;
+      flex-basis: 100%;
+
+      h3.title {
+        text-align: center;
+        color: #323232;
+        margin: 10px auto 0;
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+      p {
+        color: #8c8c8c;
+        font-size: 14px;
+        line-height: 1.7em;
+        margin: .5em 0 0 0;
+      }
+    }
+  }
+}
+
+#object-detailed-info {
+  width: 100%;
+  h3 {
+    text-align: center;
+    color: #323232;
+    font-weight: 600;
+  }
+}
+
+#text-info-and-map {
+  float: left;
+  width: 100%;
+  background-color: #FFF;
+  padding: 30px 50px;
+  .field-details {
+    clear: both;
+    margin-bottom: 20px;
+    height: 25px;
+    .field-label {
+      float: left;
+      margin-right: 10px;
+      font-weight: 600;
+    }
+    .field-value {
+      float: right;
+      width: 70%;
+      text-align: right;
+    }
+  }
+}
+
+#not-editable-map {
+  width: 50%;
+  height: 250px;
+  float: right;
+}
+
+#notice {
+  display: none;
+}
+
+#user-info {
+  label {
+    float: left;
+    clear: both;
+    text-align: left;
+  }
+}

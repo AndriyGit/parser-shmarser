@@ -1,0 +1,36 @@
+#user_info{
+  color: #fff;
+  float: right;
+  width: 180px;
+  margin-top: 10px;
+  img {
+    float: left;
+    margin-right: 10px;
+  }
+  .user_name {
+    float: left;
+  }
+  .locale {
+    float: right;
+    .flag-icon {
+      width: 24px;
+      height: 24px;
+      display: block;
+      float: left;
+      margin-right: 10px;
+    }
+    .usa-flag {
+      background: image_url('usa-flag.png') no-repeat;
+
+    }
+    .ukrainian-flag {
+      background: image_url('ukrainian-flag.png') no-repeat;
+    }
+  }
+}
+
+.top-nav {
+  float: right;
+  margin-top: .8em;
+  margin-right: 2em;
+}

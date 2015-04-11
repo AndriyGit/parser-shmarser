@@ -1,0 +1,6 @@
+.banner-grid-info.center-block
+  %h3.text-upper This is content!!
+.grid
+  - @content.each do |element|
+    = element.html_safe
+.clearfix
